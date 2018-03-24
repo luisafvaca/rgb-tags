@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import createReactClass from 'create-react-class';
 import Controller from './components/generator';
 
