@@ -3,8 +3,14 @@ import createReactClass from 'create-react-class';
 
 var Controller = createReactClass({
     render: function(){
+        var inputPropierties = {
+            type: 'range',
+            min: '0',
+            max: '255',
+            defaultValue: 255
+        }
         return (
-            React.createElement('h1', null, 'Hola mundo')
+            React.createElement('input', inputPropierties)
         )
     }
 })
